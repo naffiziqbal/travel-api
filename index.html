@@ -7,20 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Travel</title>
     <style>
-        .display-country{
+             #display-country{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 2rem;
+             }
+
+        .display-country {
             background: #4567;
             padding: 2rem;
-            margin: 1rem 0;
+            border-radius: 5px;
+            /* margin: 1rem 0; */
         }
+
     </style>
 </head>
 
 <body>
 
     <div id="main">
-        <h2>Let's Travel</h2>
-        <div id="display-country">
+        <div id="country-details">
             
+        </div>
+        <div class="country-container">
+            <h2>Let's Travel</h2>
+            <div id="display-country">
+
+            </div>
         </div>
 
 
